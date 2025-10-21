@@ -24,9 +24,10 @@ list2 = [4, 5, 9, 12, 11]
 # 3
 
 # for i in range(len(list1)):
-#     for j in range(len(list2)):
-#         if list1[i] == list2[j]:
+#     for j in range(i + 1, len(list1)):
+#         if list1[i] == list1[j]:
 #             list1[i] = 0
+#             list1[j] = 0
 # print(list1)
 
 # 4
